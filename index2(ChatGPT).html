@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+    background: linear-gradient(
+        135deg,
+        #202040,
+        #302050
+    );
+    color: white;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.card:hover {
+  background: rgba(150, 120, 255, 0.25);
+  transform: translateY(-5.5px);
+}
+
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>🌙 나만의 작은 공간</h1>
+        <p>천천히 머물다 가세요.</p>
+    </header>
+
+    <main>
+
+        <section class="about">
+            <h2>👋 About Me</h2>
+            <p>
+                안녕하세요! 나는 이창신입니다.
+                요즘 HTML/CSS를 취미로써 하고 있어요.
+            </p>
+        </section>
+
+        <section class="favorites">
+            <h2>💙 내가 좋아하는 것</h2>
+
+            <div class="card-container">
+
+                <div class="card">
+                    <h3>🎧 음악</h3>
+                    <p>좋아하는 음악을 들으며 시간을 보내요.</p>
+                </div>
+
+                <div class="card">
+                    <h3>📚 독서</h3>
+                    <p>조용한 곳에서 책 읽는 걸 좋아해요.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🌿 산책</h3>
+                    <p>마을 뒷산 등을 천천히 걸으며 생각하는 시간을 좋아해요.</p>
+                </div>
+
+                <div class="card">
+                    <h3>☕ 카페</h3>
+                    <p>분위기 좋은 카페를 찾아다녀요.</p>
+                </div>
+            
+                <div class="card">
+                    <h3>⚾ 야구</h3>
+                    <p>야구 경기 보는 걸 좋아해요.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🎮 게임</h3>
+                    <p>온라인 게임보다는 고전 게임이나 쿠키런 같은 게임을 즐겨요.</p>
+                </div>
+
+            </div>
+        </section>
+    
+    </main>
+
+<footer>
+    Made by ChangShin.(Madokami)
+</footer>
+
+</body>
+</html>
